@@ -1,0 +1,104 @@
+#include <iostream>
+
+- using namespace std;
+
+int main() {
+
+int cleaning = 0;
+
+int sweeping = 0;
+
+int mopping = 0;
+
+int cooking = 0;
+
+int drinkingwater = 0;
+
+int medicalcheckup = 0;
+
+int routinemaintenance = 0;
+
+while (true) {
+
+cout << "Enter 1 for cleaning, 2 for sweeping, 3 for mopping, 4 for cooking,5 for drinkingwater, 6 for medicalcheckup, 7 for routinemaintenance, 8 to exit:
+
+";
+
+int choice;
+
+cin >> choice;
+if (choice == 1) {
+
+cleaning++;
+
+cout << "Cleaning added." << endl;
+
+} else if (choice == 2) {
+
+sweeping++;
+
+cout << "Sweeping added." << endl;
+
+} else if (choice == 3) {
+
+mopping++;
+
+cout << "Mopping added." << endl;
+
+} else if (choice == 4) {
+
+cooking++;
+
+cout << "cooking added." << endl;
+
+} else if (choice == 4) {
+
+drinkingwater++;
+
+cout << "drinkingwater added." << endl;
+
+} else if(choice == 6) {
+
+medicalcheckup++;
+
+cout << "medicalcheckup added." << endl;
+
+else if(choice == 7) {
+routinemaintenance++;
+
+cout << "routinemaintenance added." << endl;
+
+} else if(choice== 8){
+
+cout <<"exiting.." << endl;
+
+break;
+
+} else {
+
+cout << "Invalid choice. Please try again." << endl
+
+}
+
+}
+
+cout << "Summary:" << endl;
+
+cout << "Cleaning: " << cleaning << endl;
+
+cout << "Sweeping: " << sweeping << endl;
+
+cout << "Mopping: " << mopping << endl;
+
+cout << "cooking: " << cooking << endl;
+
+cout << "drinkingwater: " << drinkingwater << endl;
+
+cout << "medicalcheckup: " << medicalcheckup << endl;
+cout << "routinemaintenance: " << routinemaintenance <<<
+
+endl;
+
+return 0;
+
+}
